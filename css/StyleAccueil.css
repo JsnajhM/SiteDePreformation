@@ -2,14 +2,32 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento:wght@400;700&display=swap");
 
-body {
+/* body {
   background-color: #f9dec9;
 }
 
 h1 {
     text-align: center;
-    font-family: "Oswald", serif;
+    color: #0c120c;
+    font-family: "Oswald";
     font-style: normal;
+}
+
+h2 {
+  text-align: center;
+  color: #0c120c;
+  font-family: "Quattrocento";
+} */
+
+body {
+  background-color: #f9dec9;
+}
+
+h1 {
+  text-align: center;
+  color: #0c120c;
+  font-family: "Oswald";
+  font-style: normal;
 }
 
 h2 {
