@@ -1,0 +1,50 @@
+body {
+  background-color: ;
+}
+
+h1,
+h2 {
+  color: ;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  padding: 5px;
+}
+
+footer {
+  background-color: black;
+  padding: 5px;
+}
+
+.lien {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(182, 110, 110);
+}
+
+.question {
+  color: black;
+}
+
+.réponse {
+  color: black;
+}
+
+.logojm {
+  padding: 10px;
+  height: 55px;
+  width: 55px;
+}
+
+.réseaux {
+  padding: 10px;
+  height: 55px;
+  width: 55px;
+}
+
+.expo {
+  height: 479px;
+  width: 700px;
+}
