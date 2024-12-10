@@ -13,9 +13,10 @@ a {
 }
 
 .droite {
+  margin: 0;
   font-weight: bold;
   font-size: larger;
-  text-align: right;
+  text-align: center;
 }
 
 span {
@@ -24,9 +25,10 @@ span {
 }
 
 h1 {
-  margin: 30px;
-  padding: 5px;
+  margin: 0px 375px 0px 0px;
+  padding: 0;
   font-size: 3.5em;
+  text-align: center;
   color: #a5b4fc;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 3px 3px 3px rgb(0, 0, 0);
@@ -85,7 +87,12 @@ a:hover {
 
 .portrait {
   /* margin: ; */
-  margin: 0px 425px 20px 460px;
+  /* margin: 0px 425px 20px 460px; */
+  /* float:right; */
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   border-radius: 25% 75% 39% 61% / 82% 22% 78% 18%;
 }
 
