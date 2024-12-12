@@ -24,7 +24,7 @@ a {
   font-size: 1.1em;
   color: #f9f8ff;
 }
-  /* background: linear-gradient(106deg, #ce9770, #a978f8, #324376);
+/* background: linear-gradient(106deg, #ce9770, #a978f8, #324376);
   background-size: 180% 180%;
   animation: gradient-animation 8s ease infinite;
 }
@@ -118,6 +118,7 @@ h1 {
 
 .question:hover {
   opacity: 0.5;
+  
 }
 
 .devo {
@@ -177,55 +178,72 @@ h1 {
 } */
 
 .gd {
-    transition: 1s ease-in-out;
-    font-size: xx-large;
-    text-align: center;
-    margin: 0;
-    padding: 2%;
-    color: #bababa;
-    font-family: "EB Garamond", serif;
-    /* font-optical-sizing: auto;
+  transition: 1s ease-in-out;
+  font-size: x-large;
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+  color: #bababa;
+  font-family: "EB Garamond", serif;
+  /* font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;
-    background: linear-gradient(106deg, #bababa, white, #bababa, white, #bababa, white, #bababa,white, #bababa, white, #bababa, white, #bababa);
+    font-style: normal; */
+  /*background: linear-gradient(106deg, #bababa, white, #bababa, white, #bababa, white, #bababa,white, #bababa, white, #bababa, white, #bababa);
     background-size: 180% 180%;
     animation: gradient-animation 8s ease infinite; */
 }
 
 .gd:hover {
-    color: black;
+  color: black;
 }
 
 .dg {
-    transition: 1s ease-in-out;
-    font-size: xx-large;
-    text-align: center;
-    margin: 0;
-    padding: 2%;
-    color: #bababa;
-    font-family: "EB Garamond", serif;
-    /* font-optical-sizing: auto;
+  transition: 1s ease-in-out;
+  font-size: x-large;
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+  color: #bababa;
+  font-family: "EB Garamond", serif;
+  /* font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;
-    background: linear-gradient(106deg, white, #bababa, white, #bababa, white, #bababa, white,#bababa, white, #bababa, white, #bababa, white);
+    font-style: normal; */
+  /*background: linear-gradient(106deg, white, #bababa, white, #bababa, white, #bababa, white,#bababa, white, #bababa, white, #bababa, white);
     background-size: 180% 180%;
     animation: gradient-animation 8s ease infinite; */
 }
 
 .dg:hover {
-    color: black;
+  color: black;
 }
 
 @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-  
-    50% {
-      background-position: 100% 50%;
-    }
-  
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fin {
+  font-family: "EB Garamond", serif;
+  font-size: xxx-large;
+  text-align: center;
+  color: black;
+}
+
+/* div p .fin {
+  text-align: center;
+} */
+
+p {
+  color: white;
+  font-family: "EB Garamond", serif;
+}
+
