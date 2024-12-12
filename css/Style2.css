@@ -181,7 +181,7 @@ h1 {
   animation: animate 4s linear infinite;
 } */
 
-@keyframes animate {
+/* @keyframes animate {
   0% {
     transform: scaleX(0);
     transform-origin: left;
@@ -201,7 +201,7 @@ h1 {
     transform: scaleX(0);
     transform-origin: right;
   }
-}
+} */
 
 /* .gd {
     font-size: xx-large;
@@ -234,7 +234,7 @@ h1 {
 } */
 
 .gd {
-  transition: 1s ease-in-out;
+  transition: 2.5s ease-in-out;
   font-size: x-large;
   text-align: center;
   margin: 0;
@@ -254,7 +254,7 @@ h1 {
 }
 
 .dg {
-  transition: 1s ease-in-out;
+  transition: 2.5s ease-in-out;
   font-size: x-large;
   text-align: center;
   margin: 0;
@@ -273,7 +273,7 @@ h1 {
   color: black;
 }
 
-@keyframes gradient-animation {
+/*@keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
   }
@@ -285,7 +285,7 @@ h1 {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 .fin {
   font-family: "EB Garamond", serif;
