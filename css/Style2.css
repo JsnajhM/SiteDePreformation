@@ -177,6 +177,7 @@ h1 {
 } */
 
 .gd {
+    transition: 1s ease-in-out;
     font-size: xx-large;
     text-align: center;
     margin: 0;
@@ -192,10 +193,11 @@ h1 {
 }
 
 .gd:hover {
-    background-color: white;
+    color: black;
 }
 
 .dg {
+    transition: 1s ease-in-out;
     font-size: xx-large;
     text-align: center;
     margin: 0;
@@ -211,7 +213,7 @@ h1 {
 }
 
 .dg:hover {
-    background-color: white;
+    color: black;
 }
 
 @keyframes gradient-animation {
