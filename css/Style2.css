@@ -1,8 +1,5 @@
 body {
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
   margin: 0;
   background-color: #bababa;
 }
@@ -15,15 +12,11 @@ a {
 }
 
 .réponse {
+  text-align: justify;
   font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  margin: 30px;
-  padding: 5px;
-  font-size: 1.1em;
   color: #f9f8ff;
 }
+
 /* background: linear-gradient(106deg, #ce9770, #a978f8, #324376);
   background-size: 180% 180%;
   animation: gradient-animation 8s ease infinite;
@@ -139,7 +132,7 @@ h1 {
 }
 
 .expotexte {
-  /* display: flex; mec!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */ 
+  /* display: flex; mec!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
   padding: 10px;
   /* border-style: outset; */
   text-align: justify;
@@ -157,30 +150,6 @@ h1 {
   box-sizing: border-box;
 }
 
-.expotexte :nth-child(1) {
-  transform: rotate(0deg);
-}
-
-.expotexte :nth-child(2) {
-  transform: rotate(90deg);
-}
-
-.expotexte :nth-child(3) {
-  transform: rotate(180deg);
-}
-
-.expotexte :nth-child(4) {
-  transform: rotate(270deg);
-}
-
-.expotexte :before {
-  /* content: ""; */
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background:  linear-gradient(106deg, #ce9770, #a978f8, #324376);
-  animation: animate 4s linear infinite;
-}
 
 /* .box span{
   position: absolute;
@@ -228,10 +197,12 @@ h1 {
     transform: scaleX(0);
     transform-origin: left;
   }
+
   50% {
     transform: scaleX(1);
     transform-origin: left;
   }
+
   50.1% {
     transform: scaleX(1);
     transform-origin: right;
