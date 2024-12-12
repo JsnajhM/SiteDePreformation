@@ -4,7 +4,10 @@ body {
   font-weight: <weight>;
   font-style: normal;
   margin: 0;
-  background-color: #4e5166;
+  /* background-color: #7B7DDD; */
+  background: linear-gradient(222deg, #BABABA, #B6B6B6, #A7A7A7, #959494, #A7A7A7, #B6B6B6, #BABABA);
+  background-size: 300% 300%;
+  animation: gradient-animation 10s ease infinite;
 }
 
 a {
@@ -17,9 +20,9 @@ a {
 .centredroite {
   padding-right: 5px;
   border-radius: 10px;
-  background: linear-gradient(106deg, #935528, #583b87, #f8be15);
+  background: linear-gradient(106deg, #ce9770, #a978f8, #ffd454);
   background-size: 180% 180%;
-  animation: gradient-animation 12s ease infinite;
+  animation: gradient-animation 8s ease infinite;
   margin: 0% 12% 0% 0%;
   margin-left: 50%;
   /* font-weight: bold; */
@@ -31,9 +34,11 @@ a {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -41,15 +46,15 @@ a {
 
 span {
   color: #000000;
-  font-style: normal;
+  /* font-style: normal; */
 }
 
 .centregauche {
   padding-left: 5px;
   border-radius: 10px;
-  background: linear-gradient(106deg, #f8be15, #583b87, #935528);
+  background: linear-gradient(106deg, #ffd454, #a978f8, #ce9770);
   background-size: 180% 180%;
-  animation: gradient-animation 12s ease infinite;
+  animation: gradient-animation 8s ease infinite;
   margin: 20% 0% 0% 14%;
   /* margin-right: 50%; */
   /* padding: 0; */
@@ -68,7 +73,7 @@ h1 {
 
 h2 {
   /* margin: 30px; */
-  padding: 5px;
+  /* padding: 5px; */
   color: #f9f8ff;
 }
 
@@ -85,8 +90,8 @@ p {
 
 .entete,
 .pied-de-page {
-  width: 100%;
   padding: 5px;
+  width: 100%;
   background-color: white;
 }
 
@@ -100,6 +105,10 @@ p {
   position: fixed;
   bottom: 0;
   margin: 20px 0px 0px 0px;
+}
+
+.lien-icone {
+  font-size: 30px;
   padding: 5px;
 }
 
@@ -126,7 +135,7 @@ p {
 }
 
 .logo {
-  padding: 0px 8px 0px 0px;
+  /* padding: 0px 8px 0px 0px; */
   height: 30px;
   width: 30px;
 }
@@ -161,15 +170,13 @@ p {
 } */
 
 
-  .portrait {
-    /* position: absolute; */
-    border-radius: 50%;
-    background-image: linear-gradient(
-      45deg, 
-      $color_one, 
-      $color_two
-    );
-    border-radius: 38% 62% 55% 45% / 32% 53% 47% 68% ;
+.portrait {
+  /* position: absolute; */
+  border-radius: 50%;
+  background-image: linear-gradient(45deg,
+      $color_one,
+      $color_two );
+  border-radius: 38% 62% 55% 45% / 32% 53% 47% 68%;
   animation: vawe 7s linear infinite;
 }
 
@@ -177,12 +184,15 @@ p {
   20% {
     border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
   }
+
   40% {
     border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
   }
+
   60% {
     border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
   }
+
   80% {
     border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
   }

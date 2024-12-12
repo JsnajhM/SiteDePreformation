@@ -1,0 +1,95 @@
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 0;
+    background-color: #BABABA;
+}
+
+a {
+    padding: 8px;
+    font-size: xx-large;
+    color: #242424;
+    text-decoration: none;
+}
+
+p {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin: 30px;
+    padding: 5px;
+    font-size: 1.1em;
+    color: #f9f8ff;
+}
+
+.entete,
+.pied-de-page {
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+}
+
+.entete {
+    position: fixed;
+    top: 0;
+}
+
+.pied-de-page {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 20px 0px 0px 0px;
+}
+
+.lien-icone {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
+}
+
+.logo {
+    /* padding: 0px 8px 0px 0px; */
+    height: 30px;
+    width: 30px;
+}
+
+.logo:hover {
+    opacity: 0.5;
+}
+
+.réseaux {
+    color: #000000;
+    height: 30px;
+    width: 30x;
+}
+
+h1 {
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+    font-size: 3em;
+}
+
+.question {
+    font-size: 1.5em;
+    padding: 1%;
+    margin: 50px;
+    /* margin-bottom: -13%; */
+}
+
+.question:hover {
+    opacity: 0.5;
+}
+
+.devo {
+    position: fixed;
+    width: 760px;
+    height: 870px;
+    margin-left: 55%;
+    margin-top: -40%;
+}
