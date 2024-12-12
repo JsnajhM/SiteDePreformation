@@ -1,95 +1,229 @@
 body {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    margin: 0;
-    background-color: #BABABA;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 0;
+  background-color: #bababa;
 }
 
 a {
-    padding: 8px;
-    font-size: xx-large;
-    color: #242424;
-    text-decoration: none;
+  padding: 8px;
+  font-size: xx-large;
+  color: #242424;
+  text-decoration: none;
 }
 
-p {
+.réponse {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 30px;
+  padding: 5px;
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+  /* background: linear-gradient(106deg, #ce9770, #a978f8, #324376);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  } */
+
+.entete,
+.pied-de-page {
+  width: 100%;
+  background-color: white;
+}
+
+.entete {
+  position: fixed;
+  top: 0;
+}
+
+.entete a {
+  margin-left: 20px;
+}
+
+/* .entete .logo {
+  margin-left: 20px;
+} */
+
+.pied-de-page {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.pied-de-page a {
+  margin-left: 20px;
+}
+
+.pied-de-page .logo {
+  margin-left: 20px;
+}
+
+.lien-icone {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+.logo {
+  /* padding: 0px 8px 0px 0px; */
+  height: 30px;
+  width: 30px;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+.réseaux {
+  color: #000000;
+  height: 30px;
+  width: 30x;
+}
+
+h1 {
+  text-align: center;
+  margin: 70px 0px 0px 0px;
+  font-size: 3em;
+}
+
+.question {
+  /* z-index: 100;
+    position: relative; */
+  font-size: 1.5em;
+  /* padding: 1%; */
+  margin: 50px;
+  /* margin-bottom: -13%; */
+}
+
+.question:hover {
+  opacity: 0.5;
+}
+
+.devo {
+  z-index: -100;
+  position: fixed;
+  width: 760px;
+  height: 870px;
+  right: 0;
+  top: 21px;
+  /* margin-left: 55%;
+    margin-top: -40%; */
+}
+
+.expo {
+  position: fixed;
+  right: 0;
+  top: 15px;
+  /* bottom: auto; */
+}
+
+.expotexte {
+  text-align: justify;
+  font-size: large;
+  background-color: black;
+  opacity: 0.8;
+  margin: 3% 15% 3% 15%;
+}
+
+/* .gd {
+    font-size: xx-large;
+    text-align: center;
+    margin: 0;
+    padding: 2%;
+    color: #bababa;
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    margin: 30px;
-    padding: 5px;
-    font-size: 1.1em;
-    color: #f9f8ff;
+    background: linear-gradient(106deg, #bababa, white, #bababa, white, #bababa, white, #bababa,white, #bababa, white, #bababa, white, #bababa);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
 }
 
-.entete,
-.pied-de-page {
-    padding: 5px;
-    width: 100%;
+.dg {
+    font-size: xx-large;
+    text-align: center;
+    margin: 0;
+    padding: 2%;
+    color: #bababa;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background: linear-gradient(106deg, white, #bababa, white, #bababa, white, #bababa, white,#bababa, white, #bababa, white, #bababa, white);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+} */
+
+.gd {
+    font-size: xx-large;
+    text-align: center;
+    margin: 0;
+    padding: 2%;
+    color: #bababa;
+    font-family: "EB Garamond", serif;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background: linear-gradient(106deg, #bababa, white, #bababa, white, #bababa, white, #bababa,white, #bababa, white, #bababa, white, #bababa);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite; */
+}
+
+.gd:hover {
     background-color: white;
 }
 
-.entete {
-    position: fixed;
-    top: 0;
-}
-
-.pied-de-page {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    margin: 20px 0px 0px 0px;
-}
-
-.lien-icone {
-    font-size: 30px;
-    padding: 5px;
-}
-
-.lien-icone:hover {
-    opacity: 0.5;
-}
-
-.logo {
-    /* padding: 0px 8px 0px 0px; */
-    height: 30px;
-    width: 30px;
-}
-
-.logo:hover {
-    opacity: 0.5;
-}
-
-.réseaux {
-    color: #000000;
-    height: 30px;
-    width: 30x;
-}
-
-h1 {
+.dg {
+    font-size: xx-large;
     text-align: center;
-    margin: 70px 0px 0px 0px;
-    font-size: 3em;
+    margin: 0;
+    padding: 2%;
+    color: #bababa;
+    font-family: "EB Garamond", serif;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background: linear-gradient(106deg, white, #bababa, white, #bababa, white, #bababa, white,#bababa, white, #bababa, white, #bababa, white);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite; */
 }
 
-.question {
-    font-size: 1.5em;
-    padding: 1%;
-    margin: 50px;
-    /* margin-bottom: -13%; */
+.dg:hover {
+    background-color: white;
 }
 
-.question:hover {
-    opacity: 0.5;
-}
-
-.devo {
-    position: fixed;
-    width: 760px;
-    height: 870px;
-    margin-left: 55%;
-    margin-top: -40%;
-}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
